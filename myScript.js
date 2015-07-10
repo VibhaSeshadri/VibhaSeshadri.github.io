@@ -41,6 +41,7 @@ $( document ).ready(function() {
 		$("#showWeekTwo").hide();
 		$("#showWeekThree").show();
 		$("#contactMe").hide();
+		$("#rod").hide();
 
 
 	});
