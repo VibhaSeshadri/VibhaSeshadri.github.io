@@ -5,6 +5,8 @@ $( document ).ready(function() {
 	$("#showWeekThree").hide();
 	$("#contactMe").hide();
 	$("#rod").hide();
+	$("#showWeekFour").hide();
+	$("#showWeekFive").hide();
 
 	
 	$("#home").click(function(){
@@ -14,6 +16,8 @@ $( document ).ready(function() {
 		$("#showWeekThree").hide();
 		$("#contactMe").hide();
 		$("#rod").hide();
+		$("#showWeekFour").hide();
+		$("#showWeekFive").hide();
 
 	});
 	$("#weekOne").click(function(){
@@ -23,6 +27,8 @@ $( document ).ready(function() {
 		$("#showWeekThree").hide();
 		$("#contactMe").hide();
 		$("#rod").hide();
+		$("#showWeekFour").hide();
+		$("#showWeekFive").hide();
 
 	});
 	$("#weekTwo").click(function(){
@@ -32,6 +38,8 @@ $( document ).ready(function() {
 		$("#showWeekThree").hide();
 		$("#contactMe").hide();
 		$("#rod").hide();
+		$("#showWeekFour").hide();
+		$("#showWeekFive").hide();
 
 
 	});
@@ -42,8 +50,8 @@ $( document ).ready(function() {
 		$("#showWeekThree").show();
 		$("#contactMe").hide();
 		$("#rod").hide();
-
-
+		$("#showWeekFour").hide();
+		$("#showWeekFive").hide();
 	});
 	$("#contact").click(function(){
 		$("#intro").hide();
@@ -52,6 +60,8 @@ $( document ).ready(function() {
 		$("#showWeekThree").hide();
 		$("#contactMe").show();
 		$("#rod").hide();
+		$("#showWeekFour").hide();
+		$("#showWeekFive").hide();
 	});
 		$("#r").click(function(){
 		$("#intro").hide();
@@ -60,6 +70,28 @@ $( document ).ready(function() {
 		$("#showWeekThree").hide();
 		$("#contactMe").hide();
 		$("#rod").show();
+		$("#showWeekFour").hide();
+		$("#showWeekFive").hide();
+	});
+	$("#weekFour").click(function(){
+		$("#intro").hide();
+		$("#showWeekOne").hide();
+		$("#showWeekTwo").hide();
+		$("#showWeekThree").hide();
+		$("#contactMe").hide();
+		$("#rod").hide();
+		$("#showWeekFour").show();
+		$("#showWeekFive").hide();
+	});
+		$("#weekFive").click(function(){
+		$("#intro").hide();
+		$("#showWeekOne").hide();
+		$("#showWeekTwo").hide();
+		$("#showWeekThree").hide();
+		$("#contactMe").hide();
+		$("#rod").hide();
+		$("#showWeekFour").hide();
+		$("#showWeekFive").show();
 	});
 });
 	
